@@ -4,7 +4,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'junit:junit:4.12'
 
-    compile 'org.sqldroid:sqldroid:1.0.3'
+//    compile 'org.sqldroid:sqldroid:1.0.3'
 
     // https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
     //TODO нужно для запуска интеграционных тестов с бд

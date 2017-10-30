@@ -15,9 +15,9 @@ public class SQLiteConnection {
     private static String urlConnection;
 
 
-    public static void init(String driverClass, String url) {
-        driverClassName = driverClass;
-        urlConnection = url;
+    public static void init(String driverClassName, String urlConnection) {
+        SQLiteConnection.driverClassName = driverClassName;
+        SQLiteConnection.urlConnection = urlConnection;
 
         createConnection();
     }

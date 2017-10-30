@@ -1,4 +1,4 @@
-package ru.barmaglot.android.myfinance;
+package ru.barmaglot.android.myfinance.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import ru.barmaglot.android.myfinance.R;
+import ru.barmaglot.android.myfinance.database.Initializer;
+import ru.barmaglot.android.myfinance.objects.type.OperationType;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -39,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+//       Initializer.getOperationSynchronizer().getList(OperationType.CONVERT);
     }
 
     @Override
