@@ -7,4 +7,10 @@
 
     <string name="action_settings">Settings</string>
     <string name="loading">Загрузка...</string>
+    <string name="operations">Операции</string>
+    <string name="sources">Категории</string>
+    <string name="storage">Счета</string>
+    <string name="reports">Отчеты</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Справка</string>
 </resources>
