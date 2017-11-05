@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
                 DBConnection.initConnection(getApplicationContext());
 
                 try {
-                    sleep(4000);
+                    sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
